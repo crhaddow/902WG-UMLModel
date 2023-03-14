@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_NQdT8LN9Ee2B0Mh7PpZkcw" name="902UMLModel">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_NQw18LN9Ee2B0Mh7PpZkcw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" href="902xNNw00_DTM.uml#_GosgULN-Ee2B0Mh7PpZkcw"/>
+  <packagedElement xmi:type="uml:Package" href="902x13m01_AED.uml#_uIEqMLN9Ee2B0Mh7PpZkcw"/>
+  <packagedElement xmi:type="uml:Package" href="902x12p11_CDE.uml#_8pBLILN9Ee2B0Mh7PpZkcw"/>
+  <packagedElement xmi:type="uml:Package" href="902x09b01_SMURF.uml#_ANxcgLa5Ee25HrPy2Cnf6g"/>
+  <packagedElement xmi:type="uml:Package" href="902x04b01_SPDF.uml#_TkmwsLbtEe2iFNQcDRnLrw"/>
+  <packagedElement xmi:type="uml:Package" href="902x02b01_CPIF.uml#_h_LW8La4Ee25HrPy2Cnf6g"/>
+  <packagedElement xmi:type="uml:Package" href="902x01b01TC1_SSF.uml#_QZD00La4Ee25HrPy2Cnf6g"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_YwczELOCEe2B0Mh7PpZkcw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ywf2YLOCEe2B0Mh7PpZkcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

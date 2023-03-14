@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_h_LW8La4Ee25HrPy2Cnf6g" name="902x02b01-CPIF">
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ytj_0La4Ee25HrPy2Cnf6g" client="_h_LW8La4Ee25HrPy2Cnf6g">
+    <supplier xmi:type="uml:Package" href="902x12p11_CDE.uml#_8pBLILN9Ee2B0Mh7PpZkcw"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bvGDgLa5Ee25HrPy2Cnf6g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bvGDgba5Ee25HrPy2Cnf6g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bvGqkLa5Ee25HrPy2Cnf6g" source="duplicatedProfile"/>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Package>

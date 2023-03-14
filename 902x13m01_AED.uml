@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uIEqMLN9Ee2B0Mh7PpZkcw" name="902x13m01-AED">
+  <packagedElement xmi:type="uml:Class" xmi:id="_f_ELULOBEe2B0Mh7PpZkcw" name="AbstractEvent" isAbstract="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3XxvcLOHEe2B0Mh7PpZkcw" name="user">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JxQoMLOIEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3giC0LOHEe2B0Mh7PpZkcw" name="description">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OehokLOIEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3k8owLOHEe2B0Mh7PpZkcw" name="latestOffset">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UOFMYLOIEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3tQ3QLOHEe2B0Mh7PpZkcw" name="earliestOffset">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YrYeILOIEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fFzj4LOIEe2B0Mh7PpZkcw" name="identifier">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_6ycxcLOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kdCHQLOIEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pgTXYLOJEe2B0Mh7PpZkcw" name="type">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sSjckLOJEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_z_fXQLOCEe2B0Mh7PpZkcw">
+    <client xmi:type="uml:Model" href="902UMLModel.uml#_NQdT8LN9Ee2B0Mh7PpZkcw"/>
+    <supplier xmi:type="uml:Model" href="902UMLModel.uml#_NQdT8LN9Ee2B0Mh7PpZkcw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_spjcwLOIEe2B0Mh7PpZkcw" name="AbstractParameter" isAbstract="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ko-cELOJEe2B0Mh7PpZkcw" name="name">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EFV8ULOKEe2B0Mh7PpZkcw" memberEnd="_EFXKcLOKEe2B0Mh7PpZkcw _EFXKc7OKEe2B0Mh7PpZkcw" navigableOwnedEnd="_EFXKcLOKEe2B0Mh7PpZkcw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EFWjYLOKEe2B0Mh7PpZkcw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EFWjYbOKEe2B0Mh7PpZkcw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EFXKc7OKEe2B0Mh7PpZkcw" name="abstractevent" type="_f_ELULOBEe2B0Mh7PpZkcw" association="_EFV8ULOKEe2B0Mh7PpZkcw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EFXKcLOKEe2B0Mh7PpZkcw" name="abstractparameter" type="_spjcwLOIEe2B0Mh7PpZkcw" aggregation="composite" association="_EFV8ULOKEe2B0Mh7PpZkcw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EFXKcbOKEe2B0Mh7PpZkcw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EFXKcrOKEe2B0Mh7PpZkcw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uKENQLOIEe2B0Mh7PpZkcw" name="AbstractEventTime" isAbstract="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mUgJwLOJEe2B0Mh7PpZkcw" name="epochTimeSystem">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1uLpgLOJEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uA3toLOLEe2B0Mh7PpZkcw" memberEnd="_uA4UsrOLEe2B0Mh7PpZkcw _uA4UtbOLEe2B0Mh7PpZkcw" navigableOwnedEnd="_uA4UsrOLEe2B0Mh7PpZkcw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uA4UsLOLEe2B0Mh7PpZkcw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uA4UsbOLEe2B0Mh7PpZkcw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uA4UtbOLEe2B0Mh7PpZkcw" name="abstractevent" type="_f_ELULOBEe2B0Mh7PpZkcw" association="_uA3toLOLEe2B0Mh7PpZkcw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uA4UsrOLEe2B0Mh7PpZkcw" name="abstracteventtime" type="_uKENQLOIEe2B0Mh7PpZkcw" aggregation="composite" association="_uA3toLOLEe2B0Mh7PpZkcw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6S2coLOLEe2B0Mh7PpZkcw" name="BooleanParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_F4GPMLOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_95d-ALOLEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_6V6mcLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__HVp4LOMEe2B0Mh7PpZkcw" name="UnsignedIntParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_GfJBELOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__HVp4bOMEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__aa98LOMEe2B0Mh7PpZkcw" name="IntParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_HOSmELOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__aa98bOMEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_67Nr4LOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__erL0LOMEe2B0Mh7PpZkcw" name="FloatParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_IDP4ILOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__erL0bOMEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_6uZ-8LOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__iR5cLOMEe2B0Mh7PpZkcw" name="DoubleParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_I1ud8LOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__iR5cbOMEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_6aXBkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__mBJ8LOMEe2B0Mh7PpZkcw" name="StringParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_J23K0LOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__mBJ8bOMEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__pqT0LOMEe2B0Mh7PpZkcw" name="TimeParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_BlE60LOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__tPzULOMEe2B0Mh7PpZkcw" name="ExtendedParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_CRsJMLOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__tPzUbOMEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_50jl0LOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__w8AgLOMEe2B0Mh7PpZkcw" name="DurationUnIntParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_C7xoALOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__w8AgbOMEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__0rRALOMEe2B0Mh7PpZkcw" name="DurationDblParameter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_mv1EwLOSEe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__0rRAbOMEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_6qWlYLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nOVX8LONEe2B0Mh7PpZkcw" name="TimeParameterA">
+    <generalization xmi:type="uml:Generalization" xmi:id="_D06PcLOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nOVX8bONEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_sExcELOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nhHKALONEe2B0Mh7PpZkcw" name="TimeParameterB">
+    <generalization xmi:type="uml:Generalization" xmi:id="_EvoyULOREe2B0Mh7PpZkcw" general="_spjcwLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nhHKAbONEe2B0Mh7PpZkcw" name="value">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_K_f4wLOPEe2B0Mh7PpZkcw" name="CcsdsAsciiTimeCodeA">
+    <generalization xmi:type="uml:Generalization" xmi:id="_8EvewLOQEe2B0Mh7PpZkcw" general="_uKENQLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MdcdcLOPEe2B0Mh7PpZkcw" name="absoluteTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_sExcELOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nZUOALOPEe2B0Mh7PpZkcw" name="CcsdsAsciiTimeCodeB">
+    <generalization xmi:type="uml:Generalization" xmi:id="_9aslELOQEe2B0Mh7PpZkcw" general="_uKENQLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nZUOAbOPEe2B0Mh7PpZkcw" name="absoluteTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5jv-ILOPEe2B0Mh7PpZkcw" name="RelativeEventTime">
+    <generalization xmi:type="uml:Generalization" xmi:id="__Ah6cLOQEe2B0Mh7PpZkcw" general="_uKENQLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5jv-IbOPEe2B0Mh7PpZkcw" name="relativeTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_6aXBkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5jv-IrOPEe2B0Mh7PpZkcw" name="otherEventRef">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_62jOULOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5tRGgLOPEe2B0Mh7PpZkcw" name="RelativeToTimeA">
+    <generalization xmi:type="uml:Generalization" xmi:id="__s1m0LOQEe2B0Mh7PpZkcw" general="_uKENQLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5tRGgbOPEe2B0Mh7PpZkcw" name="relativeTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_6aXBkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5tRGgrOPEe2B0Mh7PpZkcw" name="absoluteTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_sExcELOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__-744LOPEe2B0Mh7PpZkcw" name="RelativeToTimeB">
+    <generalization xmi:type="uml:Generalization" xmi:id="_AisQwLOREe2B0Mh7PpZkcw" general="_uKENQLOIEe2B0Mh7PpZkcw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__-744bOPEe2B0Mh7PpZkcw" name="relativeTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_6aXBkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__-744rOPEe2B0Mh7PpZkcw" name="absoluteTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A9GC4LOTEe2B0Mh7PpZkcw" memberEnd="_A9Gp8bOTEe2B0Mh7PpZkcw _A9Gp9LOTEe2B0Mh7PpZkcw" navigableOwnedEnd="_A9Gp8bOTEe2B0Mh7PpZkcw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A9GC4bOTEe2B0Mh7PpZkcw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A9Gp8LOTEe2B0Mh7PpZkcw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A9Gp9LOTEe2B0Mh7PpZkcw" name="timeparameter" type="__pqT0LOMEe2B0Mh7PpZkcw" association="_A9GC4LOTEe2B0Mh7PpZkcw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A9Gp8bOTEe2B0Mh7PpZkcw" name="abstracteventtime" type="_uKENQLOIEe2B0Mh7PpZkcw" aggregation="composite" association="_A9GC4LOTEe2B0Mh7PpZkcw"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3Kju0LYkEe2nrIFpvncuvQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3Kju0bYkEe2nrIFpvncuvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3Kju0rYkEe2nrIFpvncuvQ" source="duplicatedProfile"/>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Package>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GosgULN-Ee2B0Mh7PpZkcw" name="902xNNw00-DTM">
+  <packagedElement xmi:type="uml:DataType" xmi:id="_sExcELOFEe2B0Mh7PpZkcw" name="CCSDS Time Code A"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_1p8mkLOFEe2B0Mh7PpZkcw" name="CCSDS Time Code B"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_4sApYLOFEe2B0Mh7PpZkcw" name="Enumeration"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_50jl0LOFEe2B0Mh7PpZkcw" name="xsd:any"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_6V6mcLOFEe2B0Mh7PpZkcw" name="xsd:boolean"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_6aXBkLOFEe2B0Mh7PpZkcw" name="xsd:double"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_6ecQULOFEe2B0Mh7PpZkcw" name="xsd:double≤0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_6iaKULOFEe2B0Mh7PpZkcw" name="xsd:double&lt;0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_6mVBALOFEe2B0Mh7PpZkcw" name="xsd:double>0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_6qWlYLOFEe2B0Mh7PpZkcw" name="xsd:double≥0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_R5BWcLbeEe2iFNQcDRnLrw" name="xsd:double -90.0≤x≤90.0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_3KhooLbfEe2iFNQcDRnLrw" name="xsd:double -360.0&lt;x&lt;360.0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_6uZ-8LOFEe2B0Mh7PpZkcw" name="xsd:float"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_6ycxcLOFEe2B0Mh7PpZkcw" name="xsd:ID"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_62jOULOFEe2B0Mh7PpZkcw" name="xsd:IDREF"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_67Nr4LOFEe2B0Mh7PpZkcw" name="xsd:int"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_6_VW4LOFEe2B0Mh7PpZkcw" name="xsd:int&lt;0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_7DYwcLOFEe2B0Mh7PpZkcw" name="xsd:int≤0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_7HWDYLOFEe2B0Mh7PpZkcw" name="xsd:int≥0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_7LZc8LOFEe2B0Mh7PpZkcw" name="xsd:int>0"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_7Ppq0LOFEe2B0Mh7PpZkcw" name="xsd:time"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_7Tx84LOFEe2B0Mh7PpZkcw" name="xsd:unsignedInt"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_7X19gLOFEe2B0Mh7PpZkcw" name="xsd:string"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_7b3h4LOFEe2B0Mh7PpZkcw" name="xsd:string restricted to UTC"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_l8cUkLb2Ee2iFNQcDRnLrw" name="TleLine0String"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_meUSkLb2Ee2iFNQcDRnLrw" name="TleLine1String"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_5VYTALdVEe2x8r4xzVNSnA" name="TleLine2String"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_HblYsLdWEe2x8r4xzVNSnA" name="Enumeration:ServicePkgUsage"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_J5XI0MHBEe2Ipuyd1Hm6YQ" name="Enumeration:UtilizationReqStatus"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_01s9AMJpEe2Ipuyd1Hm6YQ" name="Enumeration:ReportType"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_D0YWELYlEe2nrIFpvncuvQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D0YWEbYlEe2nrIFpvncuvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D0Y9ILYlEe2nrIFpvncuvQ" source="duplicatedProfile"/>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Package>

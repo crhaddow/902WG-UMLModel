@@ -1,0 +1,142 @@
+Package._902Package-WhiteBook {
+	fontName:"Segoe UI";
+	bold:true;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000
+}
+
+Package._902Package-MagentaBook {
+	fontName:"Segoe UI";
+	bold:true;
+	fillColor:#FF00FF;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000
+}
+
+Package._902Package-BlueBook {
+	fontColor:#000000;
+	fontName:"Segoe UI";
+	bold:true;
+	fillColor:#0000FF;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000
+}
+
+Class[isAbstract=true] {
+	fontName:"Segoe UI";
+	bold:true;
+	italic:true;
+	fillColor:#7FFF00;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000;
+	shadow:true
+}
+
+Class>Compartment[kind="attributes"] {
+		visible:true
+}
+
+Class>Compartment[kind="operations"] {
+		visible:false
+}
+
+Class>Compartment[kind="symbols"] {
+		visible:false
+}
+
+Class>Compartment[kind="nestedclassifiers"] {
+		visible:false
+}
+
+Class {
+	fontName:"Segoe UI";
+	bold:true;
+	fillColor:#EDC97A;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000;
+	shadow:true
+}
+
+Association {
+	fontName:"Segoe UI";
+	routing:Rectilinear;
+	lineColor:#000000
+}
+
+Association>Label:sourceRole {
+	visible:false
+}
+
+Association>Label:targetRole {
+	visible:false
+}
+
+Generalization {
+	fontName:"Segoe UI";
+	routing:Rectilinear;
+	lineColor:#000000
+}
+
+Dependency {
+	fontName:"Segoe UI";
+	routing:Rectilinear;
+	lineColor:#000000
+}
+
+Class._902Class-BlueBook {
+	fontColor:#FFFFFF;
+	fontName:"Segoe UI";
+	bold:true;
+	fillColor:#0000FF;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000
+}
+
+Class._902Class-MagentaBook {
+	fontName:"Segoe UI";
+	bold:true;
+	fillColor:#FF00FF;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000
+}
+
+Class._902Class-ExternalStandard {
+	fontName:"Segoe UI";
+	bold:true;
+	fillColor:#00FFFF;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000
+}
+
+DataType {
+	fontName:"Segoe UI";
+	bold:true;
+	fillColor:#E4B3E5;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000
+}
+
+DataType>Compartment[kind="attributes"] {
+		visible:false
+}
+
+DataType>Compartment[kind="operations"] {
+		visible:false
+}
+
+DataType>Compartment[kind="symbols"] {
+		visible:false
+}
+
+DataType>Compartment[kind="nestedclassifiers"] {
+		visible:false
+}
