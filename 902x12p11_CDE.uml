@@ -351,6 +351,9 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sf7WELb-Ee2iFNQcDRnLrw" value="*"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_QaLC8MNMEe2ZjKYOZyImSQ" client="_8pBLILN9Ee2B0Mh7PpZkcw">
+    <supplier xmi:type="uml:Package" href="502x00b02tc1_ODM.uml#_gm6z0MNLEe2ZjKYOZyImSQ"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_L0xUELYlEe2nrIFpvncuvQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L0xUEbYlEe2nrIFpvncuvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
