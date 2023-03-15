@@ -8,7 +8,7 @@
       <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_SlHRILbCEe2iFNQcDRnLrw"/>
     </generalization>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_vFBHIMHBEe2Ipuyd1Hm6YQ" name="utilizationReqStatus" visibility="public">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_J5XI0MHBEe2Ipuyd1Hm6YQ"/>
+      <type xmi:type="uml:Enumeration" href="902xNNw00_DTM.uml#_MIkKMMNUEe2ZjKYOZyImSQ"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_fg7rAMG9Ee2Ipuyd1Hm6YQ" name="SrvMgtUtilReq">
@@ -89,7 +89,7 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_o0uxoMG9Ee2Ipuyd1Hm6YQ" name="SimpleScheduleRepReq">
     <generalization xmi:type="uml:Generalization" xmi:id="_YrvbIMKJEe2Ipuyd1Hm6YQ" general="_k9ezQMG9Ee2Ipuyd1Hm6YQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Sg4i0MHCEe2Ipuyd1Hm6YQ" name="reportType">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_01s9AMJpEe2Ipuyd1Hm6YQ"/>
+      <type xmi:type="uml:Enumeration" href="902xNNw00_DTM.uml#_gzv_0MNUEe2ZjKYOZyImSQ"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_lII5MMG_Ee2Ipuyd1Hm6YQ" name="PlanningInfoReq">
@@ -329,7 +329,7 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_wzsa4MM_Ee2ZjKYOZyImSQ" name="PassDailyTime">
     <generalization xmi:type="uml:Generalization" xmi:id="_F4rMYMNHEe2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_nO6AAMNBEe2ZjKYOZyImSQ" name="daysForPasses">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_vIxNUMNDEe2ZjKYOZyImSQ"/>
+      <type xmi:type="uml:Enumeration" href="902xNNw00_DTM.uml#_1S9O8MNUEe2ZjKYOZyImSQ"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8ZrpwMNDEe2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Z8vgMNDEe2ZjKYOZyImSQ" value="7"/>
     </ownedAttribute>

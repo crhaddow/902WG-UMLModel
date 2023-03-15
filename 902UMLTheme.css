@@ -140,3 +140,12 @@ DataType>Compartment[kind="symbols"] {
 DataType>Compartment[kind="nestedclassifiers"] {
 		visible:false
 }
+Enumeration {
+	fontName:"Segoe UI";
+	bold:true;
+	fillColor:#FFFF00;
+	transparency:0;
+	gradient:#FFFFFF vertical;
+	lineColor:#000000
+}
+

@@ -35,7 +35,7 @@
       <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_SlHRILbCEe2iFNQcDRnLrw"/>
     </generalization>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_OxzS8LdDEe2x8r4xzVNSnA" name="ServicePkgUsage">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_HblYsLdWEe2x8r4xzVNSnA"/>
+      <type xmi:type="uml:Enumeration" href="902xNNw00_DTM.uml#_BEB7MMNTEe2ZjKYOZyImSQ"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_i6tXYLdCEe2x8r4xzVNSnA" name="ServicePkg">
