@@ -241,6 +241,148 @@
       <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_OOgdcLbnEe2iFNQcDRnLrw"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5GHWUMM6Ee2ZjKYOZyImSQ" name="BasicPass">
+    <generalization xmi:type="uml:Generalization" xmi:id="_WiIyoMM_Ee2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SKMXcMM-Ee2ZjKYOZyImSQ" name="preferredStartTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_S6E8QMM-Ee2ZjKYOZyImSQ" name="earliestStartTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rP0_IMM-Ee2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TUjRwMM-Ee2ZjKYOZyImSQ" name="latestStartTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uSYKIMM-Ee2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UaKO8MM-Ee2ZjKYOZyImSQ" name="preferredDuration">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_U-Js0MM-Ee2ZjKYOZyImSQ" name="minimumDuration">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5AOM4MM-Ee2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VeQwQMM-Ee2ZjKYOZyImSQ" name="maximumDuration">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F7SVIMM_Ee2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5_q0gMM6Ee2ZjKYOZyImSQ" name="ApertureSelection">
+    <generalization xmi:type="uml:Generalization" xmi:id="_YBHSEMM_Ee2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WKEGUMM-Ee2ZjKYOZyImSQ" name="priority">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7LZc8LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OIOhYMM_Ee2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_em1o4MM_Ee2ZjKYOZyImSQ" memberEnd="_em23AcM_Ee2ZjKYOZyImSQ _em3eEsM_Ee2ZjKYOZyImSQ" navigableOwnedEnd="_em23AcM_Ee2ZjKYOZyImSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_em2P8MM_Ee2ZjKYOZyImSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_em23AMM_Ee2ZjKYOZyImSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_em3eEsM_Ee2ZjKYOZyImSQ" name="apertureselection" type="_5_q0gMM6Ee2ZjKYOZyImSQ" association="_em1o4MM_Ee2ZjKYOZyImSQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_em23AcM_Ee2ZjKYOZyImSQ" name="aperturelocation" aggregation="composite" association="_em1o4MM_Ee2ZjKYOZyImSQ">
+      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_8hJ2cLbcEe2iFNQcDRnLrw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rnZVIMM_Ee2ZjKYOZyImSQ" name="StandingOrder">
+    <generalization xmi:type="uml:Generalization" xmi:id="_JP9RQMNHEe2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EsdfoMNBEe2ZjKYOZyImSQ" name="standingOrderStartTime">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jFXXwMNBEe2ZjKYOZyImSQ" name="standingOrderDuration">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lc4owMNBEe2ZjKYOZyImSQ" name="minNumOfPasses">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7LZc8LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nOHgYMNCEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mDJXgMNBEe2ZjKYOZyImSQ" name="maxNumOfPasses">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7LZc8LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xijkoMNCEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sPRNcMM_Ee2ZjKYOZyImSQ" name="Handover">
+    <generalization xmi:type="uml:Generalization" xmi:id="_NhTKoMNHEe2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rbmp8MNBEe2ZjKYOZyImSQ" name="maximumHandovers">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7LZc8LOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r4uDwMNBEe2ZjKYOZyImSQ" name="mimimumOverlap">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_67Nr4LOFEe2B0Mh7PpZkcw"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sXwwMMNBEe2ZjKYOZyImSQ" name="maximumOverlap">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_67Nr4LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_STlnMMNCEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_s3ojEMNBEe2ZjKYOZyImSQ" name="minimunSingleDuration">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7LZc8LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZexbgMNCEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tiRGYMM_Ee2ZjKYOZyImSQ" name="PassElevation">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Lx5pkMNHEe2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wiN-cMNBEe2ZjKYOZyImSQ" name="minElevationDuringPass">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_TAkhoMNFEe2ZjKYOZyImSQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IN7ecMNFEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xG71EMNBEe2ZjKYOZyImSQ" name="maxElevationDuringPass">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_TAkhoMNFEe2ZjKYOZyImSQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U8MrYMNGEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_wzsa4MM_Ee2ZjKYOZyImSQ" name="PassDailyTime">
+    <generalization xmi:type="uml:Generalization" xmi:id="_F4rMYMNHEe2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nO6AAMNBEe2ZjKYOZyImSQ" name="daysForPasses">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_vIxNUMNDEe2ZjKYOZyImSQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8ZrpwMNDEe2ZjKYOZyImSQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Z8vgMNDEe2ZjKYOZyImSQ" value="7"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_opAmgMNBEe2ZjKYOZyImSQ" name="earliestPassStart">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_YFmXMMNEEe2ZjKYOZyImSQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tn7SAMNEEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pNJ1YMNBEe2ZjKYOZyImSQ" name="latestPassStart">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_YFmXMMNEEe2ZjKYOZyImSQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_opyiQMNEEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_puNUAMNBEe2ZjKYOZyImSQ" name="earliestPassEnd">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_YFmXMMNEEe2ZjKYOZyImSQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sQ9dQMNEEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qKm8IMNBEe2ZjKYOZyImSQ" name="latestPassEnd">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_YFmXMMNEEe2ZjKYOZyImSQ"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vp5vAMNEEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0RzggMM_Ee2ZjKYOZyImSQ" name="PassRange">
+    <generalization xmi:type="uml:Generalization" xmi:id="_EWavcMNHEe2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vrXO8MNBEe2ZjKYOZyImSQ" name="minRangeDuringPass">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9WW38MNEEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wHfxUMNBEe2ZjKYOZyImSQ" name="maxRangeDuringPass">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CtpFsMNFEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_15-YMMM_Ee2ZjKYOZyImSQ" name="PassInterval">
+    <generalization xmi:type="uml:Generalization" xmi:id="_HNtssMNHEe2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uqhdAMNBEe2ZjKYOZyImSQ" name="minIntBetweenPasses">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eRltcMNGEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vNhcYMNBEe2ZjKYOZyImSQ" name="maxIntBetweenPasses">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iDpp0MNGEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2h1CYMM_Ee2ZjKYOZyImSQ" name="PassDuration">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Cj_IgMNHEe2ZjKYOZyImSQ" general="_y2C-MMHAEe2Ipuyd1Hm6YQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tnpDsMNBEe2ZjKYOZyImSQ" name="minPassDuration">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uLVNUMNGEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uO-JcMNBEe2ZjKYOZyImSQ" name="maxPassDuration">
+      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7Tx84LOFEe2B0Mh7PpZkcw"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x5NNQMNGEe2ZjKYOZyImSQ"/>
+    </ownedAttribute>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_eOwj4La5Ee25HrPy2Cnf6g">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eOwj4ba5Ee25HrPy2Cnf6g" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>

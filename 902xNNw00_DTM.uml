@@ -30,6 +30,9 @@
   <packagedElement xmi:type="uml:DataType" xmi:id="_HblYsLdWEe2x8r4xzVNSnA" name="Enumeration:ServicePkgUsage"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_J5XI0MHBEe2Ipuyd1Hm6YQ" name="Enumeration:UtilizationReqStatus"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_01s9AMJpEe2Ipuyd1Hm6YQ" name="Enumeration:ReportType"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_vIxNUMNDEe2ZjKYOZyImSQ" name="Enumeration:DaysOfWeek"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_YFmXMMNEEe2ZjKYOZyImSQ" name="xsd:time restricted to hh:mm:ssZ"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_TAkhoMNFEe2ZjKYOZyImSQ" name="xsd:double 0.0≤x≤90.0"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_D0YWELYlEe2nrIFpvncuvQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D0YWEbYlEe2nrIFpvncuvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
