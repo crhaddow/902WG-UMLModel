@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_NQdT8LN9Ee2B0Mh7PpZkcw" name="902UMLModel">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_TRX0IMP9Ee2ZjKYOZyImSQ">
+    <annotatedElement xmi:type="uml:Package" href="502x00b02tc1_ODM.uml#_gm6z0MNLEe2ZjKYOZyImSQ"/>
+    <body>502x00 is the navigation working group Orbit Data Messages recommendation. 902x12 (Common Data Entities) has a dependency on this.</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_76sMIMP9Ee2ZjKYOZyImSQ">
+    <body>NAMING CONVENTION&#xD;
+902xNNcMM[tcO]-AAA[A][A]&#xD;
+where&#xD;
+· NN; is the book number with leading 0 if required&#xD;
+· c; is the book colour;&#xD;
+o w for white&#xD;
+o r for red&#xD;
+o b for blu e&#xD;
+o m for magenta&#xD;
+o p for pink&#xD;
+· MM; is the version number with leading 0 if required&#xD;
+· tc; is optional field used if book is a Technical Corrigendum&#xD;
+· O; is optional version field used if book is a Technical Corrigendum (I think 1 digit suffices here)&#xD;
+· AAA[A][A] is an uppercase Alphabetic (no spaces allowed) string of 3 - 5 chars in length, composed of the book title initials (more or less).&#xD;
+o SSF for Simple Schedule (902x01)&#xD;
+o CPIF for Comms Planing Info (902x02)&#xD;
+o Unassigned (902x03)&#xD;
+o SPDF for Service Package Data Formats (902x04)&#xD;
+o SACP for Service Agreement and Configuration Profile (902x05)&#xD;
+o EVSQ for Event Sequence Format (902x06)&#xD;
+o SECA for Service Catalogue Format (902x07)&#xD;
+o SMAC for Service Accounting Format (902x08)&#xD;
+o SMURF for Service Management Utilization Formats (902x09)&#xD;
+o SMMS for Service Management Management Service (902x10)&#xD;
+o BPR for Best Practises (902x11)&#xD;
+o CDE for Common Data Entities (902X12)&#xD;
+o AED for Abstract Event Definitions (902x13)</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_ClZ7MMP_Ee2ZjKYOZyImSQ">
+    <body>AVAILABLE STYLES&#xD;
+_902Package-WhiteBook;       Formats a package for a white book.&#xD;
+_902Package-BlueBook;      Formats a package for a blue book.&#xD;
+_902Package-MagentaBook;   Formats a package for a magenta book.&#xD;
+_902Package-PinkBook;           Formats a package for a Pink book.&#xD;
+_902Class-BlueBook;            Formats a class for a blue book (i.e. the class is defined in another CCSDS Blue Book).&#xD;
+_902Class-MagentaBook;        Formats a class for a magenta book (i.e. the class is defined in another CCSDS Magenta Book).&#xD;
+_902Class-ExternalStandard;    Formats a class for an External Standard (i.e. the class is defined in a non-CCSDS standard, e.g. TLE).&#xD;
+NOTE: the &quot;_&quot; in front of the 902 is needed as it appears that names beginning with numbers are not valid (see previous comment about Eclipse documentation...)</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_NQw18LN9Ee2B0Mh7PpZkcw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
