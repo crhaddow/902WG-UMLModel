@@ -7,7 +7,7 @@
   <packagedElement xmi:type="uml:Dependency" xmi:id="_yVy1kLOCEe2B0Mh7PpZkcw" client="_8pBLILN9Ee2B0Mh7PpZkcw">
     <supplier xmi:type="uml:Package" href="902x13m01_AED.uml#_uIEqMLN9Ee2B0Mh7PpZkcw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_jEb70LYpEe2ZeKPECqTgyA" name="SrvM gtAbstractEvent" isAbstract="true">
+  <packagedElement xmi:type="uml:Class" xmi:id="_jEb70LYpEe2ZeKPECqTgyA" name="SrvMgtAbstractEvent" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_o7X6ALYpEe2ZeKPECqTgyA">
       <general xmi:type="uml:Class" href="902x13m01_AED.uml#_f_ELULOBEe2B0Mh7PpZkcw"/>
     </generalization>
