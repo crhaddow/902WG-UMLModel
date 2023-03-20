@@ -5398,9 +5398,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_cevhQsKwEe2ZjKYOZyImSQ"/>
       <element xmi:type="uml:Generalization" href="902x12p11_CDE.uml#_1LN58Lb4Ee2iFNQcDRnLrw"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cevhQ8KwEe2ZjKYOZyImSQ" points="[140, -820, -643984, -643984]$[140, -980, -643984, -643984]$[580, -980, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cevhRMKwEe2ZjKYOZyImSQ" id="(0.5375494071146245,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cevhRcKwEe2ZjKYOZyImSQ" id="(0.0,0.4878048780487805)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cevhQ8KwEe2ZjKYOZyImSQ" points="[140, -810, -643984, -643984]$[140, -960, -643984, -643984]$[590, -960, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cevhRMKwEe2ZjKYOZyImSQ" id="(0.4980237154150198,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cevhRcKwEe2ZjKYOZyImSQ" id="(0.0,0.24390243902439024)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_cevhZMKwEe2ZjKYOZyImSQ" type="Association_Edge" source="_cewvSMKwEe2ZjKYOZyImSQ" target="_cexWVsKwEe2ZjKYOZyImSQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_cevhZcKwEe2ZjKYOZyImSQ" type="Association_StereotypeLabel">

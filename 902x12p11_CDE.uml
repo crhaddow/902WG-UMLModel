@@ -168,7 +168,7 @@
       <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_PaTiMLbnEe2iFNQcDRnLrw" name="AbstarctTrajDataWrapper" isAbstract="true">
+  <packagedElement xmi:type="uml:Class" xmi:id="_PaTiMLbnEe2iFNQcDRnLrw" name="AbstarctTrajWrapper" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_2BeMgLb4Ee2iFNQcDRnLrw" general="_OOgdcLbnEe2iFNQcDRnLrw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_HX7wwLbzEe2iFNQcDRnLrw" name="trajectoryID">
       <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>

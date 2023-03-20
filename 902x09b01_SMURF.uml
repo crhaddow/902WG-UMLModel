@@ -32,7 +32,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N89AMMJoEe2Ipuyd1Hm6YQ"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_iJBHkMG9Ee2Ipuyd1Hm6YQ" name="InfoReq">
+  <packagedElement xmi:type="uml:Class" xmi:id="_iJBHkMG9Ee2Ipuyd1Hm6YQ" name="DataEntityReq">
     <generalization xmi:type="uml:Generalization" xmi:id="_jCJgMMKHEe2Ipuyd1Hm6YQ" general="_gTwPEMG9Ee2Ipuyd1Hm6YQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Hz5bsMHCEe2Ipuyd1Hm6YQ" name="spaceUserNode">
       <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
@@ -92,7 +92,7 @@
       <type xmi:type="uml:Enumeration" href="902xNNw00_DTM.uml#_gzv_0MNUEe2ZjKYOZyImSQ"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_lII5MMG_Ee2Ipuyd1Hm6YQ" name="PlanningInfoReq">
+  <packagedElement xmi:type="uml:Class" xmi:id="_lII5MMG_Ee2Ipuyd1Hm6YQ" name="CommsPlanningReq">
     <generalization xmi:type="uml:Generalization" xmi:id="_vm4MEMKHEe2Ipuyd1Hm6YQ" general="_gTwPEMG9Ee2Ipuyd1Hm6YQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_W6TaIMHCEe2Ipuyd1Hm6YQ" name="spaceUserNode">
       <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
@@ -132,7 +132,6 @@
     <generalization xmi:type="uml:Generalization" xmi:id="_-hjwwMKJEe2Ipuyd1Hm6YQ" general="_NzBXcMHAEe2Ipuyd1Hm6YQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_aAw0wMHCEe2Ipuyd1Hm6YQ" name="srvPkgRef">
       <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HYg7cMJrEe2Ipuyd1Hm6YQ" value="*"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_UR2cEMHAEe2Ipuyd1Hm6YQ" name="DeleteSrvPkgReq">
