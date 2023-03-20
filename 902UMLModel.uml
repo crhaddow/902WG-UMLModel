@@ -2,7 +2,7 @@
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_NQdT8LN9Ee2B0Mh7PpZkcw" name="902UMLModel">
   <ownedComment xmi:type="uml:Comment" xmi:id="_TRX0IMP9Ee2ZjKYOZyImSQ">
     <annotatedElement xmi:type="uml:Package" href="502x00b02tc1_ODM.uml#_gm6z0MNLEe2ZjKYOZyImSQ"/>
-    <body>502x00 is the navigation working group Orbit Data Messages recommendation. 902x12 (Common Data Entities) has a dependency on this.</body>
+    <body>505x00 is the navigation working group XML Specification for Navigation Data Messages recommendation. 902x12 (Common Data Entities) has a dependency on this.</body>
   </ownedComment>
   <ownedComment xmi:type="uml:Comment" xmi:id="_76sMIMP9Ee2ZjKYOZyImSQ">
     <body>NAMING CONVENTION&#xD;
