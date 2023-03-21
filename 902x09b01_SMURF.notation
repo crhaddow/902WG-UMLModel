@@ -2812,7 +2812,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RlspG8KNEe2Ipuyd1Hm6YQ" id="(0.45248868778280543,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_eLWFIMKOEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats -Report Request Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_eLWFIMKOEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Report Request Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_5ybV4MKOEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_5ybV4cKOEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_5ybV4sKOEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -3144,7 +3144,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5yckKMKOEe2ZjKYOZyImSQ" id="(1.0,0.4878048780487805)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_F7s_YMKQEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats -Information Request Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_F7s_YMKQEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Data Entity Request Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_MAyHSMKQEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_MAyHScKQEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_MAyHSsKQEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -3296,7 +3296,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MAyHR8KQEe2ZjKYOZyImSQ" id="(0.4968944099378882,1.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_XaXqIMKaEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats -Online New and Replace Service Package Requests Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_XaXqIMKaEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Online New and Replace Service Package Requests Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_z2yDkMKeEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_z2yDkcKeEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_z2yDksKeEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -4016,7 +4016,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z2yrgsKeEe2ZjKYOZyImSQ" id="(1.0,0.32786885245901637)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_jVrD4MKtEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats -Delete Service Package Request, Delete Service Package and Replace Service Package Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_jVrD4MKtEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Delete Service Package Request, Delete Service Package and Replace Service Package Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_BxGrkMKuEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_BxGrkcKuEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_BxGrksKuEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -4699,7 +4699,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BxIg1sKuEe2ZjKYOZyImSQ" id="(0.49795918367346936,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_UBdoEMKvEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats -Submission Requests Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_UBdoEMKvEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Submission Requests Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_cevhB8KwEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_cevhCMKwEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_cevhCcKwEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">

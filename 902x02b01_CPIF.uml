@@ -33,9 +33,6 @@
       <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_TG0QALbCEe2iFNQcDRnLrw"/>
     </generalization>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_7IGeIMPoEe2ZjKYOZyImSQ" name="PlanningInfoTypeList">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_eIqd4MPpEe2ZjKYOZyImSQ" name="Property1"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_8LtQMMPoEe2ZjKYOZyImSQ" name="DefinedEvent" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_aiuMwMP7Ee2ZjKYOZyImSQ">
       <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
@@ -76,13 +73,6 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_DW_X4sP5Ee2ZjKYOZyImSQ" name="commsplanninginfo" type="_5e99IMPoEe2ZjKYOZyImSQ" association="_DW-JwMP5Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_DW-w0sP5Ee2ZjKYOZyImSQ" name="commsplanninginfodata" type="_6TApMMPoEe2ZjKYOZyImSQ" aggregation="composite" association="_DW-JwMP5Ee2ZjKYOZyImSQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_IqhuEMP5Ee2ZjKYOZyImSQ" memberEnd="_IqiVIsP5Ee2ZjKYOZyImSQ _Iqi8MsP5Ee2ZjKYOZyImSQ" navigableOwnedEnd="_IqiVIsP5Ee2ZjKYOZyImSQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IqiVIMP5Ee2ZjKYOZyImSQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IqiVIcP5Ee2ZjKYOZyImSQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Iqi8MsP5Ee2ZjKYOZyImSQ" name="commsplanninginfoheader" type="_99H_8MPnEe2ZjKYOZyImSQ" association="_IqhuEMP5Ee2ZjKYOZyImSQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_IqiVIsP5Ee2ZjKYOZyImSQ" name="planninginfotypelist" type="_7IGeIMPoEe2ZjKYOZyImSQ" aggregation="composite" association="_IqhuEMP5Ee2ZjKYOZyImSQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Pjyr8MP5Ee2ZjKYOZyImSQ" memberEnd="_PjzTAsP5Ee2ZjKYOZyImSQ _Pjz6EsP5Ee2ZjKYOZyImSQ" navigableOwnedEnd="_PjzTAsP5Ee2ZjKYOZyImSQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PjzTAMP5Ee2ZjKYOZyImSQ" source="org.eclipse.papyrus">
@@ -211,6 +201,15 @@
       <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_8hJ2cLbcEe2iFNQcDRnLrw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__0tck8P7Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__0tclMP7Ee2ZjKYOZyImSQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vFg_oMgSEe22Rropl6nesg" memberEnd="_vFkC8MgSEe22Rropl6nesg _vFkC88gSEe22Rropl6nesg" navigableOwnedEnd="_vFkC8MgSEe22Rropl6nesg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vFiNwMgSEe22Rropl6nesg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vFiNwcgSEe22Rropl6nesg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vFkC88gSEe22Rropl6nesg" name="commsplanninginfoheader" type="_99H_8MPnEe2ZjKYOZyImSQ" association="_vFg_oMgSEe22Rropl6nesg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vFkC8MgSEe22Rropl6nesg" name="commsplanningtypelist" aggregation="composite" association="_vFg_oMgSEe22Rropl6nesg">
+      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_E29G8LbhEe2iFNQcDRnLrw"/>
     </ownedEnd>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bvGDgLa5Ee25HrPy2Cnf6g">

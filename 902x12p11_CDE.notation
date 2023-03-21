@@ -740,7 +740,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7WKGIbbgEe2iFNQcDRnLrw" id="(0.2484472049689441,1.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_-qIAELOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12 Service Management PlanningInfoTypeList Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_-qIAELOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12 Service Management CommsPlanningTypeList Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_E29uALbhEe2iFNQcDRnLrw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_E2-VELbhEe2iFNQcDRnLrw" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_E2-VEbbhEe2iFNQcDRnLrw" type="Class_FloatingNameLabel">
