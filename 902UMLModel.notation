@@ -9,14 +9,14 @@
     <element xmi:type="uml:Package" href="902xNNw00_DTM.uml#_GosgULN-Ee2B0Mh7PpZkcw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lx-IobOCEe2B0Mh7PpZkcw" x="702" y="100"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_mmPeMLOCEe2B0Mh7PpZkcw" type="Package_Shape" bold="true" fillColor="16711935">
+  <children xmi:type="notation:Shape" xmi:id="_mmPeMLOCEe2B0Mh7PpZkcw" type="Package_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_mmQFQLOCEe2B0Mh7PpZkcw" type="Package_NameLabel"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_mmQFQbOCEe2B0Mh7PpZkcw" type="Package_PackagedElementCompartment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_mmQFQrOCEe2B0Mh7PpZkcw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mmQFQ7OCEe2B0Mh7PpZkcw"/>
     </children>
     <styles xmi:type="notation:StringListValueStyle" xmi:id="_tR9zcLawEe2_hdZ_kHCY0Q" name="cssClass">
-      <stringListValue>_902Package-MagentaBook</stringListValue>
+      <stringListValue>_902Package-WhiteBook</stringListValue>
     </styles>
     <element xmi:type="uml:Package" href="902x13m01_AED.uml#_uIEqMLN9Ee2B0Mh7PpZkcw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mmPeMbOCEe2B0Mh7PpZkcw" x="700" y="280"/>
@@ -40,7 +40,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sW9qI7a4Ee25HrPy2Cnf6g"/>
     </children>
     <styles xmi:type="notation:StringListValueStyle" xmi:id="_33SSsLa4Ee25HrPy2Cnf6g" name="cssClass">
-      <stringListValue>_902Package-BlueBook</stringListValue>
+      <stringListValue>_902Package-WhiteBook</stringListValue>
     </styles>
     <element xmi:type="uml:Package" href="902x01b01TC1_SSF.uml#_QZD00La4Ee25HrPy2Cnf6g"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sW9DEba4Ee25HrPy2Cnf6g" y="660"/>
@@ -52,7 +52,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s6_kQra4Ee25HrPy2Cnf6g"/>
     </children>
     <styles xmi:type="notation:StringListValueStyle" xmi:id="_9R9LoLa4Ee25HrPy2Cnf6g" name="cssClass">
-      <stringListValue>_902Package-BlueBook</stringListValue>
+      <stringListValue>_902Package-WhiteBook</stringListValue>
     </styles>
     <element xmi:type="uml:Package" href="902x02b01_CPIF.uml#_h_LW8La4Ee25HrPy2Cnf6g"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s6-9Mba4Ee25HrPy2Cnf6g" x="140" y="800"/>

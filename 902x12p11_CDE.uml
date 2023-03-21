@@ -129,7 +129,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_shf_ALbgEe2iFNQcDRnLrw"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_E29G8LbhEe2iFNQcDRnLrw" name="PlanningInfoTypeList">
+  <packagedElement xmi:type="uml:Class" xmi:id="_E29G8LbhEe2iFNQcDRnLrw" name="CommsPlanningTypeList">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_J6q4cLbhEe2iFNQcDRnLrw" name="planningInfoType">
       <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OWmRMLbhEe2iFNQcDRnLrw" value="*"/>

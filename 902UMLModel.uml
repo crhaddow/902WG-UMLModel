@@ -35,14 +35,14 @@ o AED for Abstract Event Definitions (902x13)</body>
   </ownedComment>
   <ownedComment xmi:type="uml:Comment" xmi:id="_ClZ7MMP_Ee2ZjKYOZyImSQ">
     <body>AVAILABLE STYLES&#xD;
-_902Package-WhiteBook;       Formats a package for a white book.&#xD;
+_902Package-WhiteBook;   Formats a package for a white book.&#xD;
 _902Package-BlueBook;      Formats a package for a blue book.&#xD;
 _902Package-MagentaBook;   Formats a package for a magenta book.&#xD;
-_902Package-PinkBook;           Formats a package for a Pink book.&#xD;
-_902Class-BlueBook;            Formats a class for a blue book (i.e. the class is defined in another CCSDS Blue Book).&#xD;
-_902Class-MagentaBook;        Formats a class for a magenta book (i.e. the class is defined in another CCSDS Magenta Book).&#xD;
-_902Class-ExternalStandard;    Formats a class for an External Standard (i.e. the class is defined in a non-CCSDS standard, e.g. TLE).&#xD;
-NOTE: the &quot;_&quot; in front of the 902 is needed as it appears that names beginning with numbers are not valid (see previous comment about Eclipse documentation...)</body>
+_902Package-PinkBook;   Formats a package for a Pink book.&#xD;
+_902Class-BlueBook;       Formats a class for a blue book (i.e. the class is defined in another CCSDS Blue Book).&#xD;
+_902Class-MagentaBook;    Formats a class for a magenta book (i.e. the class is defined in another CCSDS Magenta Book).&#xD;
+_902Class-ExternalStandard;   Formats a class for an External Standard (i.e. the class is defined in a non-CCSDS standard, e.g. TLE).&#xD;
+NOTE: the &quot;_&quot; in front of the 902 is needed as it appears that names beginning with numbers are not valid.</body>
   </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_NQw18LN9Ee2B0Mh7PpZkcw">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
