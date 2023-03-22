@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
-  <notation:Diagram xmi:id="_zkAAMLOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12 Service Management Information Entity Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_zkAAMLOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12-CDE Information Entity Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_R8NeELbCEe2iFNQcDRnLrw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_R8RIcLbCEe2iFNQcDRnLrw" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_R8RIcbbCEe2iFNQcDRnLrw" type="Class_FloatingNameLabel">
@@ -180,7 +180,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YGh10bbDEe2iFNQcDRnLrw" id="(0.0,0.4878048780487805)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_3odUILOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12 SrvMgtAbstractEvent Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_3odUILOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12-CDE SM Abstract Event Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_JcHd0LYpEe2ZeKPECqTgyA" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_JcHd0rYpEe2ZeKPECqTgyA" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_JcHd07YpEe2ZeKPECqTgyA" type="Class_FloatingNameLabel">
@@ -604,7 +604,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Bw2UQLZ2Ee2ZeKPECqTgyA" id="(0.45714285714285713,1.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_7GBAILOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12 Service Management ApertureLocation Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_7GBAILOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12-CDE Aperture Location Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_8hLEkLbcEe2iFNQcDRnLrw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_8hLEkrbcEe2iFNQcDRnLrw" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_8hLEk7bcEe2iFNQcDRnLrw" type="Class_FloatingNameLabel">
@@ -740,7 +740,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7WKGIbbgEe2iFNQcDRnLrw" id="(0.2484472049689441,1.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_-qIAELOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12 Service Management CommsPlanningTypeList Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_-qIAELOlEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12-CDE Comms Planning Type List Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_E29uALbhEe2iFNQcDRnLrw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_E2-VELbhEe2iFNQcDRnLrw" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_E2-VEbbhEe2iFNQcDRnLrw" type="Class_FloatingNameLabel">
@@ -778,7 +778,7 @@
     </styles>
     <element xmi:type="uml:Package" href="902x12p11_CDE.uml#_8pBLILN9Ee2B0Mh7PpZkcw"/>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_Bsyf0LOmEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12 Service Management ModResParm Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_Bsyf0LOmEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12-CDE Mod Res Parm Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_QkIqULbiEe2iFNQcDRnLrw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_QkIqUrbiEe2iFNQcDRnLrw" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_QkIqU7biEe2iFNQcDRnLrw" type="Class_FloatingNameLabel">
@@ -1241,9 +1241,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_QlCCMbbiEe2iFNQcDRnLrw"/>
       <element xmi:type="uml:Generalization" href="902x13m01_AED.uml#_I1ud8LOREe2B0Mh7PpZkcw"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QlCCMrbiEe2iFNQcDRnLrw" points="[491, 960, -643984, -643984]$[700, 960, -643984, -643984]$[700, 398, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QlCCMrbiEe2iFNQcDRnLrw" points="[491, 960, -643984, -643984]$[720, 960, -643984, -643984]$[720, 398, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RSrLUrbiEe2iFNQcDRnLrw" id="(1.0,0.6229508196721312)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RSrLU7biEe2iFNQcDRnLrw" id="(0.3436123348017621,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RSrLU7biEe2iFNQcDRnLrw" id="(0.43171806167400884,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_QlQrsLbiEe2iFNQcDRnLrw" type="Generalization_Edge" source="_QlG6sLbiEe2iFNQcDRnLrw" target="_QkNi0LbiEe2iFNQcDRnLrw" routing="Rectilinear">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P3LLyrbkEe2iFNQcDRnLrw" source="PapyrusCSSForceValue">
@@ -1361,7 +1361,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tCTXQbbmEe2iFNQcDRnLrw" id="(0.5198237885462555,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_F4K7ILOmEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12 Service Management Data Wrapper Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_F4K7ILOmEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12-CDE Data Wrapper Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_L9n_8LbnEe2iFNQcDRnLrw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_L9n_8rbnEe2iFNQcDRnLrw" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_L9n_87bnEe2iFNQcDRnLrw" type="Class_FloatingNameLabel">
@@ -2309,7 +2309,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zk8qQbb5Ee2iFNQcDRnLrw" id="(0.5330188679245284,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_JLaNgLOmEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12 Service Management Service Package Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_JLaNgLOmEe2DItgphOcZzQ" type="PapyrusUMLClassDiagram" name="902x12-CDE Service Package Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_786lULb6Ee2iFNQcDRnLrw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_786lUrb6Ee2iFNQcDRnLrw" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_786lU7b6Ee2iFNQcDRnLrw" type="Class_FloatingNameLabel">

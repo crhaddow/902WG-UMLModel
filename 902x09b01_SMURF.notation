@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
-  <notation:Diagram xmi:id="_WONRILemEe28qrk64c6laA" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_WONRILemEe28qrk64c6laA" type="PapyrusUMLClassDiagram" name="902x09-SMURF Service Management Utilization Request Formats Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_cHZjYMG9Ee2Ipuyd1Hm6YQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_cHb_oMG9Ee2Ipuyd1Hm6YQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_cHb_ocG9Ee2Ipuyd1Hm6YQ" type="Class_FloatingNameLabel">
@@ -2562,7 +2562,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nxbyccKKEe2Ipuyd1Hm6YQ" id="(0.75,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_toLRcMKMEe2Ipuyd1Hm6YQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Planning Info Request Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_toLRcMKMEe2Ipuyd1Hm6YQ" type="PapyrusUMLClassDiagram" name="902x09-SMURF Planning Info Request Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_RlsBv8KNEe2Ipuyd1Hm6YQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_RlsBwMKNEe2Ipuyd1Hm6YQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_RlsBwcKNEe2Ipuyd1Hm6YQ" type="Class_FloatingNameLabel">
@@ -2812,7 +2812,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RlspG8KNEe2Ipuyd1Hm6YQ" id="(0.45248868778280543,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_eLWFIMKOEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Report Request Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_eLWFIMKOEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09-SMURF Report Request Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_5ybV4MKOEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_5ybV4cKOEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_5ybV4sKOEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -3144,7 +3144,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5yckKMKOEe2ZjKYOZyImSQ" id="(1.0,0.4878048780487805)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_F7s_YMKQEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Data Entity Request Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_F7s_YMKQEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09-SMURF Data Entity Request Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_MAyHSMKQEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_MAyHScKQEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_MAyHSsKQEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -3296,7 +3296,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MAyHR8KQEe2ZjKYOZyImSQ" id="(0.4968944099378882,1.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_XaXqIMKaEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Online New and Replace Service Package Requests Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_XaXqIMKaEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09-SMURF Online New and Replace Service Package Requests Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_z2yDkMKeEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_z2yDkcKeEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_z2yDksKeEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -4016,7 +4016,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z2yrgsKeEe2ZjKYOZyImSQ" id="(1.0,0.32786885245901637)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_jVrD4MKtEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Delete Service Package Request, Delete Service Package and Replace Service Package Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_jVrD4MKtEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09-SMURF Delete Service Package Request, Delete Service Package and Replace Service Package Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_BxGrkMKuEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_BxGrkcKuEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_BxGrksKuEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -4699,7 +4699,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BxIg1sKuEe2ZjKYOZyImSQ" id="(0.49795918367346936,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_UBdoEMKvEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Submission Requests Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_UBdoEMKvEe2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09-SMURF Submission Requests Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_cevhB8KwEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_cevhCMKwEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_cevhCcKwEe2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -5062,7 +5062,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cewvWsKwEe2ZjKYOZyImSQ"/>
       </children>
       <element xmi:type="uml:Class" href="902x12p11_CDE.uml#_XFP0oLbnEe2iFNQcDRnLrw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cewvXsKwEe2ZjKYOZyImSQ" x="354" y="-450" height="41"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cewvXsKwEe2ZjKYOZyImSQ" x="360" y="-450" height="41"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_cewvX8KwEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_cewvYMKwEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
@@ -5232,7 +5232,7 @@
         <stringListValue>_902Class-BlueBook</stringListValue>
       </styles>
       <element xmi:type="uml:Class" href="902x12p11_CDE.uml#_5U8YILbnEe2iFNQcDRnLrw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cexWbcKwEe2ZjKYOZyImSQ" x="362" y="-310" height="41"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cexWbcKwEe2ZjKYOZyImSQ" x="373" y="-310" height="41"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_cexWdsKwEe2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_cexWd8KwEe2ZjKYOZyImSQ" type="Class_NameLabel"/>
@@ -5430,8 +5430,8 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_cevhd8KwEe2ZjKYOZyImSQ"/>
       <element xmi:type="uml:Association" href="902x12p11_CDE.uml#_whuw4Lb5Ee2iFNQcDRnLrw"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cevheMKwEe2ZjKYOZyImSQ" points="[420, -409, -643984, -643984]$[420, -310, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cevhecKwEe2ZjKYOZyImSQ" id="(0.528,1.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cevhesKwEe2ZjKYOZyImSQ" id="(0.58,0.0)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cevhecKwEe2ZjKYOZyImSQ" id="(0.48,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cevhesKwEe2ZjKYOZyImSQ" id="(0.47,0.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_cewIAMKwEe2ZjKYOZyImSQ" type="Generalization_Edge" source="_cexWdsKwEe2ZjKYOZyImSQ" target="_cewIKcKwEe2ZjKYOZyImSQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_cewIAcKwEe2ZjKYOZyImSQ" type="Generalization_StereotypeLabel">
@@ -5504,9 +5504,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_cewIlcKwEe2ZjKYOZyImSQ"/>
       <element xmi:type="uml:Generalization" href="902x12p11_CDE.uml#__tlFcLb4Ee2iFNQcDRnLrw"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cewIlsKwEe2ZjKYOZyImSQ" points="[574, -470, -643984, -643984]$[574, -510, -643984, -643984]$[434, -510, -643984, -643984]$[434, -769, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cewIl8KwEe2ZjKYOZyImSQ" id="(0.4444444444444444,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cewImMKwEe2ZjKYOZyImSQ" id="(0.6289592760180995,1.0)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cewIlsKwEe2ZjKYOZyImSQ" points="[600, -450, -643984, -643984]$[600, -510, -643984, -643984]$[460, -510, -643984, -643984]$[460, -749, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cewIl8KwEe2ZjKYOZyImSQ" id="(0.49206349206349204,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cewImMKwEe2ZjKYOZyImSQ" id="(0.6712962962962963,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_cewImcKwEe2ZjKYOZyImSQ" type="Generalization_Edge" source="_cexWj8KwEe2ZjKYOZyImSQ" target="_cewv0cKwEe2ZjKYOZyImSQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_cewImsKwEe2ZjKYOZyImSQ" type="Generalization_StereotypeLabel">
@@ -5557,9 +5557,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_cewIvMKwEe2ZjKYOZyImSQ"/>
       <element xmi:type="uml:Generalization" href="902x12p11_CDE.uml#_FZ1doLb5Ee2iFNQcDRnLrw"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cewIvcKwEe2ZjKYOZyImSQ" points="[34, -410, -643984, -643984]$[34, -550, -643984, -643984]$[314, -550, -643984, -643984]$[314, -769, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cewIvsKwEe2ZjKYOZyImSQ" id="(0.5575221238938053,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cewIv8KwEe2ZjKYOZyImSQ" id="(0.08597285067873303,1.0)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cewIvcKwEe2ZjKYOZyImSQ" points="[60, -450, -643984, -643984]$[60, -550, -643984, -643984]$[340, -550, -643984, -643984]$[340, -749, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cewIvsKwEe2ZjKYOZyImSQ" id="(0.6106194690265486,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cewIv8KwEe2ZjKYOZyImSQ" id="(0.11574074074074074,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_cewvEMKwEe2ZjKYOZyImSQ" type="Generalization_Edge" source="_cewvSMKwEe2ZjKYOZyImSQ" target="_cexWrMKwEe2ZjKYOZyImSQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_cewvEcKwEe2ZjKYOZyImSQ" type="Generalization_StereotypeLabel">
@@ -5674,12 +5674,12 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_cexWcsKwEe2ZjKYOZyImSQ"/>
       <element xmi:type="uml:Generalization" href="902x12p11_CDE.uml#_-yv04Lb4Ee2iFNQcDRnLrw"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cexWc8KwEe2ZjKYOZyImSQ" points="[834, -410, -643984, -643984]$[834, -550, -643984, -643984]$[474, -550, -643984, -643984]$[474, -769, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cexWdMKwEe2ZjKYOZyImSQ" id="(0.5565610859728507,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cexWdcKwEe2ZjKYOZyImSQ" id="(0.8099547511312217,1.0)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cexWc8KwEe2ZjKYOZyImSQ" points="[860, -450, -643984, -643984]$[860, -550, -643984, -643984]$[500, -550, -643984, -643984]$[500, -749, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cexWdMKwEe2ZjKYOZyImSQ" id="(0.583710407239819,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cexWdcKwEe2ZjKYOZyImSQ" id="(0.8564814814814815,1.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_WSZfwMM6Ee2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Basic Constraints Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_WSZfwMM6Ee2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09-SMURF Basic Constraints Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_y4-eoMM6Ee2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_y4-eocM6Ee2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_y4-eosM6Ee2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
@@ -5968,7 +5968,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_enODYcM_Ee2ZjKYOZyImSQ" id="(0.4968944099378882,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_X1tsoMM6Ee2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09 Service Management Utilization Request Formats - Enhanced Constraints Class Diagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_X1tsoMM6Ee2ZjKYOZyImSQ" type="PapyrusUMLClassDiagram" name="902x09-SMURF Enhanced Constraints Class Diagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_1biiAMM6Ee2ZjKYOZyImSQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_1biiAcM6Ee2ZjKYOZyImSQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_1biiAsM6Ee2ZjKYOZyImSQ" type="Class_FloatingNameLabel">
