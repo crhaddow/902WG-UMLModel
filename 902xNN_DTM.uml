@@ -38,11 +38,11 @@
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_JdUvIMNYEe2ZjKYOZyImSQ" name="Enumeration:ServiceType"/>
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_KuFzcMNYEe2ZjKYOZyImSQ" name="Enumeration:FrequencyBand"/>
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_1I-94MP0Ee2ZjKYOZyImSQ" name="Enumeration:CommsPlanningInfoStatus"/>
-  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_D0YWELYlEe2nrIFpvncuvQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D0YWEbYlEe2nrIFpvncuvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_spdBEMi7Ee2d1fZUw_41UA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_spdBEci7Ee2d1fZUw_41UA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
     </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_D0Y9ILYlEe2nrIFpvncuvQ" source="duplicatedProfile"/>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_spdoIMi7Ee2d1fZUw_41UA" source="duplicatedProfile"/>
     <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
   </profileApplication>
 </uml:Package>

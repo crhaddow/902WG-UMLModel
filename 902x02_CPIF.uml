@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_h_LW8La4Ee25HrPy2Cnf6g" name="902x02w02-CPIF">
   <ownedComment xmi:type="uml:Comment" xmi:id="_N4lMgMPnEe2ZjKYOZyImSQ">
-    <annotatedElement xmi:type="uml:Class" href="902x12p11_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
+    <annotatedElement xmi:type="uml:Class" href="902x12_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
     <body>For clarity the generalized AbstractEvent class from which SrvMgtAbstractEvent is specialized is not shown.</body>
   </ownedComment>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_ytj_0La4Ee25HrPy2Cnf6g" client="_h_LW8La4Ee25HrPy2Cnf6g">
-    <supplier xmi:type="uml:Package" href="902x12p11_CDE.uml#_8pBLILN9Ee2B0Mh7PpZkcw"/>
+    <supplier xmi:type="uml:Package" href="902x12_CDE.uml#_8pBLILN9Ee2B0Mh7PpZkcw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_99H_8MPnEe2ZjKYOZyImSQ" name="CommsPlanningInfoHeader">
     <generalization xmi:type="uml:Generalization" xmi:id="_jop94MP4Ee2ZjKYOZyImSQ">
-      <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_SlHRILbCEe2iFNQcDRnLrw"/>
+      <general xmi:type="uml:Class" href="902x12_CDE.uml#_SlHRILbCEe2iFNQcDRnLrw"/>
     </generalization>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_at7cYMPpEe2ZjKYOZyImSQ" name="commsPlanningInfoStatus">
-      <type xmi:type="uml:Enumeration" href="902xNNw00_DTM.uml#_1I-94MP0Ee2ZjKYOZyImSQ"/>
+      <type xmi:type="uml:Enumeration" href="902xNN_DTM.uml#_1I-94MP0Ee2ZjKYOZyImSQ"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_bgBnsMPpEe2ZjKYOZyImSQ" name="trajectoryXRef">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vt2-UMP1Ee2ZjKYOZyImSQ"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_cGCe0MPpEe2ZjKYOZyImSQ" name="ancilliaryInfo">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_arof4MP1Ee2ZjKYOZyImSQ"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_5e99IMPoEe2ZjKYOZyImSQ" name="CommsPlanningInfo">
     <generalization xmi:type="uml:Generalization" xmi:id="_lJpPgMP4Ee2ZjKYOZyImSQ">
-      <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_R8JzsLbCEe2iFNQcDRnLrw"/>
+      <general xmi:type="uml:Class" href="902x12_CDE.uml#_R8JzsLbCEe2iFNQcDRnLrw"/>
     </generalization>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_6TApMMPoEe2ZjKYOZyImSQ" name="CommsPlanningInfoData">
     <generalization xmi:type="uml:Generalization" xmi:id="_nFQAkMP4Ee2ZjKYOZyImSQ">
-      <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_TG0QALbCEe2iFNQcDRnLrw"/>
+      <general xmi:type="uml:Class" href="902x12_CDE.uml#_TG0QALbCEe2iFNQcDRnLrw"/>
     </generalization>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_8LtQMMPoEe2ZjKYOZyImSQ" name="DefinedEvent" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_aiuMwMP7Ee2ZjKYOZyImSQ">
-      <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
+      <general xmi:type="uml:Class" href="902x12_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
     </generalization>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_9tDuMMPoEe2ZjKYOZyImSQ" name="AdditionalEvent" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_7cLLgMP6Ee2ZjKYOZyImSQ">
-      <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
+      <general xmi:type="uml:Class" href="902x12_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
     </generalization>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_CS87QMPpEe2ZjKYOZyImSQ" name="CommsPlanningInfoEventAssociation">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_g5FXEMPpEe2ZjKYOZyImSQ" name="associationId">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hdlLQMPpEe2ZjKYOZyImSQ" name="commsPlanningInfoAssnKind">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_iThUwMPpEe2ZjKYOZyImSQ" name="comment">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Oq8DQMP3Ee2ZjKYOZyImSQ"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_i0UUsMPpEe2ZjKYOZyImSQ" name="eventIdRef">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_62jOULOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_62jOULOFEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y3Wz8MP3Ee2ZjKYOZyImSQ" value="2"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y3mrkMP3Ee2ZjKYOZyImSQ" value="*"/>
     </ownedAttribute>
@@ -80,7 +80,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Pjz6EsP5Ee2ZjKYOZyImSQ" name="commsplanninginfoheader" type="_99H_8MPnEe2ZjKYOZyImSQ" association="_Pjyr8MP5Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_PjzTAsP5Ee2ZjKYOZyImSQ" name="abstractparameter" aggregation="composite" association="_Pjyr8MP5Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x13m01_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:Class" href="902x13_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_icrdgMP5Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_idA0sMP5Ee2ZjKYOZyImSQ" value="*"/>
     </ownedEnd>
@@ -91,7 +91,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_on7e1cP5Ee2ZjKYOZyImSQ" name="definedevent" type="_8LtQMMPoEe2ZjKYOZyImSQ" association="_on63wMP5Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_on7e0sP5Ee2ZjKYOZyImSQ" name="abstractparameter" aggregation="composite" association="_on63wMP5Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x13m01_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:Class" href="902x13_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_on7e08P5Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_on7e1MP5Ee2ZjKYOZyImSQ" value="*"/>
     </ownedEnd>
@@ -102,7 +102,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_0cbAksP5Ee2ZjKYOZyImSQ" name="additionalevent" type="_9tDuMMPoEe2ZjKYOZyImSQ" association="_0cZycMP5Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_0caZgsP5Ee2ZjKYOZyImSQ" name="abstractparameter" aggregation="composite" association="_0cZycMP5Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x13m01_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:Class" href="902x13_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0cbAkMP5Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0cbAkcP5Ee2ZjKYOZyImSQ" value="*"/>
     </ownedEnd>
@@ -112,10 +112,10 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9vQd4cP5Ee2ZjKYOZyImSQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_9vRE8sP5Ee2ZjKYOZyImSQ" name="srvmgtabstractevent" association="_9vP20MP5Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_9vQd4sP5Ee2ZjKYOZyImSQ" name="abstractparameter" aggregation="composite" association="_9vP20MP5Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x13m01_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:Class" href="902x13_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9vRE8MP5Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9vRE8cP5Ee2ZjKYOZyImSQ" value="*"/>
     </ownedEnd>
@@ -126,7 +126,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_J01vocP6Ee2ZjKYOZyImSQ" name="commsplanninginfodata" type="_6TApMMPoEe2ZjKYOZyImSQ" association="_J00hgMP6Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_J01IksP6Ee2ZjKYOZyImSQ" name="abstractparameter" aggregation="composite" association="_J00hgMP6Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x13m01_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:Class" href="902x13_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J01Ik8P6Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J01voMP6Ee2ZjKYOZyImSQ" value="*"/>
     </ownedEnd>
@@ -147,7 +147,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_n_LARcP6Ee2ZjKYOZyImSQ" name="commsplanninginfoeventassociation" type="_CS87QMPpEe2ZjKYOZyImSQ" association="_n_JyIMP6Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_n_LAQsP6Ee2ZjKYOZyImSQ" name="abstractparameter" aggregation="composite" association="_n_JyIMP6Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x13m01_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:Class" href="902x13_AED.uml#_spjcwLOIEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n_LAQ8P6Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n_LARMP6Ee2ZjKYOZyImSQ" value="*"/>
     </ownedEnd>
@@ -158,7 +158,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_wAvC8sP6Ee2ZjKYOZyImSQ" name="commsplanninginfodata" type="_6TApMMPoEe2ZjKYOZyImSQ" association="_wAt00MP6Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_wAub4sP6Ee2ZjKYOZyImSQ" name="srvmgtabstractevent" aggregation="composite" association="_wAt00MP6Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_jEb70LYpEe2ZeKPECqTgyA"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wAvC8MP6Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wAvC8cP6Ee2ZjKYOZyImSQ" value="*"/>
     </ownedEnd>
@@ -169,7 +169,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_dv6hg8P7Ee2ZjKYOZyImSQ" name="additionalevent" type="_9tDuMMPoEe2ZjKYOZyImSQ" association="_dv5TYMP7Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_dv6hgMP7Ee2ZjKYOZyImSQ" name="srvmgteventtime" aggregation="composite" association="_dv5TYMP7Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_LhpKcLYqEe2ZeKPECqTgyA"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_LhpKcLYqEe2ZeKPECqTgyA"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_jvgscMP7Ee2ZjKYOZyImSQ" memberEnd="_jvhTgsP7Ee2ZjKYOZyImSQ _jvhThcP7Ee2ZjKYOZyImSQ" navigableOwnedEnd="_jvhTgsP7Ee2ZjKYOZyImSQ">
@@ -178,7 +178,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_jvhThcP7Ee2ZjKYOZyImSQ" name="additionalevent" type="_9tDuMMPoEe2ZjKYOZyImSQ" association="_jvgscMP7Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_jvhTgsP7Ee2ZjKYOZyImSQ" name="aperturelocation" aggregation="composite" association="_jvgscMP7Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_8hJ2cLbcEe2iFNQcDRnLrw"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_8hJ2cLbcEe2iFNQcDRnLrw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jvhTg8P7Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jvhThMP7Ee2ZjKYOZyImSQ" value="1"/>
     </ownedEnd>
@@ -189,7 +189,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_zYEVs8P7Ee2ZjKYOZyImSQ" name="definedevent" type="_8LtQMMPoEe2ZjKYOZyImSQ" association="_zYDHkMP7Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_zYEVsMP7Ee2ZjKYOZyImSQ" name="srvmgteventtime" aggregation="composite" association="_zYDHkMP7Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_LhpKcLYqEe2ZeKPECqTgyA"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_LhpKcLYqEe2ZeKPECqTgyA"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="__0s1gMP7Ee2ZjKYOZyImSQ" memberEnd="__0tcksP7Ee2ZjKYOZyImSQ __0tclcP7Ee2ZjKYOZyImSQ" navigableOwnedEnd="__0tcksP7Ee2ZjKYOZyImSQ">
@@ -198,7 +198,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="__0tclcP7Ee2ZjKYOZyImSQ" name="definedevent" type="_8LtQMMPoEe2ZjKYOZyImSQ" association="__0s1gMP7Ee2ZjKYOZyImSQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="__0tcksP7Ee2ZjKYOZyImSQ" name="aperturelocation" aggregation="composite" association="__0s1gMP7Ee2ZjKYOZyImSQ">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_8hJ2cLbcEe2iFNQcDRnLrw"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_8hJ2cLbcEe2iFNQcDRnLrw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__0tck8P7Ee2ZjKYOZyImSQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__0tclMP7Ee2ZjKYOZyImSQ" value="1"/>
     </ownedEnd>
@@ -209,14 +209,14 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_vFkC88gSEe22Rropl6nesg" name="commsplanninginfoheader" type="_99H_8MPnEe2ZjKYOZyImSQ" association="_vFg_oMgSEe22Rropl6nesg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_vFkC8MgSEe22Rropl6nesg" name="commsplanningtypelist" aggregation="composite" association="_vFg_oMgSEe22Rropl6nesg">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_E29G8LbhEe2iFNQcDRnLrw"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_E29G8LbhEe2iFNQcDRnLrw"/>
     </ownedEnd>
   </packagedElement>
-  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bvGDgLa5Ee25HrPy2Cnf6g">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bvGDgba5Ee25HrPy2Cnf6g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BbwyYMi8Ee2d1fZUw_41UA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BbwyYci8Ee2d1fZUw_41UA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
     </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bvGqkLa5Ee25HrPy2Cnf6g" source="duplicatedProfile"/>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BbxZcMi8Ee2d1fZUw_41UA" source="duplicatedProfile"/>
     <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
   </profileApplication>
 </uml:Package>

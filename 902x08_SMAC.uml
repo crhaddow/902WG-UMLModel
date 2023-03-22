@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_UunlkMNKEe2ZjKYOZyImSQ" name="902x08w01-SMAC">
   <packagedElement xmi:type="uml:Dependency" xmi:id="_CG3K0MNLEe2ZjKYOZyImSQ" client="_UunlkMNKEe2ZjKYOZyImSQ">
-    <supplier xmi:type="uml:Package" href="902x12p11_CDE.uml#_8pBLILN9Ee2B0Mh7PpZkcw"/>
+    <supplier xmi:type="uml:Package" href="902x12_CDE.uml#_8pBLILN9Ee2B0Mh7PpZkcw"/>
   </packagedElement>
-  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ar6DYMNKEe2ZjKYOZyImSQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ar6DYcNKEe2ZjKYOZyImSQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_38ATYMi7Ee2d1fZUw_41UA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_38ATYci7Ee2d1fZUw_41UA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
     </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ar6qcMNKEe2ZjKYOZyImSQ" source="duplicatedProfile"/>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_38ATYsi7Ee2d1fZUw_41UA" source="duplicatedProfile"/>
     <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
   </profileApplication>
 </uml:Package>

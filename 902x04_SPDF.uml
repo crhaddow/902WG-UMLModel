@@ -4,52 +4,52 @@
     <body> The classes SrvMgtInfoEntity, </body>
   </ownedComment>
   <ownedComment xmi:type="uml:Comment" xmi:id="_4S0QgLdaEe2x8r4xzVNSnA">
-    <annotatedElement xmi:type="uml:Class" href="902x12p11_CDE.uml#_R8JzsLbCEe2iFNQcDRnLrw"/>
-    <annotatedElement xmi:type="uml:Class" href="902x12p11_CDE.uml#_TG0QALbCEe2iFNQcDRnLrw"/>
-    <annotatedElement xmi:type="uml:Class" href="902x12p11_CDE.uml#_SlHRILbCEe2iFNQcDRnLrw"/>
+    <annotatedElement xmi:type="uml:Class" href="902x12_CDE.uml#_R8JzsLbCEe2iFNQcDRnLrw"/>
+    <annotatedElement xmi:type="uml:Class" href="902x12_CDE.uml#_TG0QALbCEe2iFNQcDRnLrw"/>
+    <annotatedElement xmi:type="uml:Class" href="902x12_CDE.uml#_SlHRILbCEe2iFNQcDRnLrw"/>
     <body>The classes SrvMgtInfoEntity, SrvMgtHeader and SrvMgtData are abstract and comprise the standard data structure from which the various information entities required by Service Management are instantiated.&#xD;
 </body>
   </ownedComment>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_Yx-NcLbtEe2iFNQcDRnLrw" client="_TkmwsLbtEe2iFNQcDRnLrw">
-    <supplier xmi:type="uml:Package" href="902x12p11_CDE.uml#_8pBLILN9Ee2B0Mh7PpZkcw"/>
+    <supplier xmi:type="uml:Package" href="902x12_CDE.uml#_8pBLILN9Ee2B0Mh7PpZkcw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_ecL9oLdCEe2x8r4xzVNSnA" name="ServicePkgBody">
     <generalization xmi:type="uml:Generalization" xmi:id="_yMCxcLdYEe2x8r4xzVNSnA">
-      <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_TG0QALbCEe2iFNQcDRnLrw"/>
+      <general xmi:type="uml:Class" href="902x12_CDE.uml#_TG0QALbCEe2iFNQcDRnLrw"/>
     </generalization>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_cQPTYLdWEe2x8r4xzVNSnA" name="spaceUserNode">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_c3AYcLdWEe2x8r4xzVNSnA" name="serviceReqRef">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_fVDfULdCEe2x8r4xzVNSnA" name="ServicePkgEntity">
     <generalization xmi:type="uml:Generalization" xmi:id="_xFWPILdYEe2x8r4xzVNSnA">
-      <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_R8JzsLbCEe2iFNQcDRnLrw"/>
+      <general xmi:type="uml:Class" href="902x12_CDE.uml#_R8JzsLbCEe2iFNQcDRnLrw"/>
     </generalization>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_9B12UrdYEe2x8r4xzVNSnA" name="servicepkgbody" type="_ecL9oLdCEe2x8r4xzVNSnA" aggregation="composite" association="_9B1PQLdYEe2x8r4xzVNSnA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_f6pfsLdCEe2x8r4xzVNSnA" name="ServicePkgHeader">
     <generalization xmi:type="uml:Generalization" xmi:id="_v89qwLdYEe2x8r4xzVNSnA">
-      <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_SlHRILbCEe2iFNQcDRnLrw"/>
+      <general xmi:type="uml:Class" href="902x12_CDE.uml#_SlHRILbCEe2iFNQcDRnLrw"/>
     </generalization>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_OxzS8LdDEe2x8r4xzVNSnA" name="ServicePkgUsage">
-      <type xmi:type="uml:Enumeration" href="902xNNw00_DTM.uml#_BEB7MMNTEe2ZjKYOZyImSQ"/>
+      <type xmi:type="uml:Enumeration" href="902xNN_DTM.uml#_BEB7MMNTEe2ZjKYOZyImSQ"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_i6tXYLdCEe2x8r4xzVNSnA" name="ServicePkg">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_fSrwsLdWEe2x8r4xzVNSnA" name="servicePackageID">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_f9SM4LdWEe2x8r4xzVNSnA" name="beginningOfTrack">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gg_W4LdWEe2x8r4xzVNSnA" name="endOfTrack">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_1p8mkLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hJUiMLdWEe2x8r4xzVNSnA" name="servicePackageStatus">
-      <type xmi:type="uml:DataType" href="902xNNw00_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
+      <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8ZfSULdXEe2x8r4xzVNSnA"/>
     </ownedAttribute>
   </packagedElement>
@@ -59,7 +59,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Qd4DILdXEe2x8r4xzVNSnA" name="servicepkg" type="_i6tXYLdCEe2x8r4xzVNSnA" association="_Qd1m4LdXEe2x8r4xzVNSnA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Qd3cELdXEe2x8r4xzVNSnA" name="aperturelocation" aggregation="composite" association="_Qd1m4LdXEe2x8r4xzVNSnA">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_8hJ2cLbcEe2iFNQcDRnLrw"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_8hJ2cLbcEe2iFNQcDRnLrw"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_03Td0LdYEe2x8r4xzVNSnA" memberEnd="_03UE4rdYEe2x8r4xzVNSnA _03UE5bdYEe2x8r4xzVNSnA" navigableOwnedEnd="_03UE4rdYEe2x8r4xzVNSnA">
@@ -78,7 +78,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_3RxVJbdYEe2x8r4xzVNSnA" name="servicepkg" type="_i6tXYLdCEe2x8r4xzVNSnA" association="_3RwuELdYEe2x8r4xzVNSnA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_3RxVIrdYEe2x8r4xzVNSnA" name="abstractonlinesrvpkg" aggregation="composite" association="_3RwuELdYEe2x8r4xzVNSnA">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_785XMLb6Ee2iFNQcDRnLrw"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_785XMLb6Ee2iFNQcDRnLrw"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_60jfYLdYEe2x8r4xzVNSnA" memberEnd="_60jfY7dYEe2x8r4xzVNSnA _60kGcrdYEe2x8r4xzVNSnA" navigableOwnedEnd="_60jfY7dYEe2x8r4xzVNSnA">
@@ -96,7 +96,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_P5M2gLdcEe2x8r4xzVNSnA" name="OnlineSrvPkgType2">
     <generalization xmi:type="uml:Generalization" xmi:id="_xlTIQLddEe2x8r4xzVNSnA">
-      <general xmi:type="uml:Class" href="902x12p11_CDE.uml#_785XMLb6Ee2iFNQcDRnLrw"/>
+      <general xmi:type="uml:Class" href="902x12_CDE.uml#_785XMLb6Ee2iFNQcDRnLrw"/>
     </generalization>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_SJHqsLdcEe2x8r4xzVNSnA" name="OnlineSrvPkgType2Details"/>
@@ -106,7 +106,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7JKrMbddEe2x8r4xzVNSnA" name="onlinesrvpkgtype2" type="_P5M2gLdcEe2x8r4xzVNSnA" association="_7JJdELddEe2x8r4xzVNSnA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7JKEIrddEe2x8r4xzVNSnA" name="abstracteventseqwrapper" aggregation="composite" association="_7JJdELddEe2x8r4xzVNSnA">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_O3RtoLbnEe2iFNQcDRnLrw"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_O3RtoLbnEe2iFNQcDRnLrw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7JKEI7ddEe2x8r4xzVNSnA"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7JKrMLddEe2x8r4xzVNSnA" value="1"/>
     </ownedEnd>
@@ -126,7 +126,7 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_DBnOIbdeEe2x8r4xzVNSnA" name="onlinesrvpkgtype2details" type="_SJHqsLdcEe2x8r4xzVNSnA" association="_DBmnELdeEe2x8r4xzVNSnA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_DBmnE7deEe2x8r4xzVNSnA" name="abstractconfigprofilewrapper" aggregation="composite" association="_DBmnELdeEe2x8r4xzVNSnA">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_P7Es8LbnEe2iFNQcDRnLrw"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_P7Es8LbnEe2iFNQcDRnLrw"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_E-fKgLdeEe2x8r4xzVNSnA" memberEnd="_E-fxkrdeEe2x8r4xzVNSnA _E-gYoLdeEe2x8r4xzVNSnA" navigableOwnedEnd="_E-fxkrdeEe2x8r4xzVNSnA">
@@ -135,16 +135,16 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_E-gYoLdeEe2x8r4xzVNSnA" name="onlinesrvpkgtype2details" type="_SJHqsLdcEe2x8r4xzVNSnA" association="_E-fKgLdeEe2x8r4xzVNSnA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_E-fxkrdeEe2x8r4xzVNSnA" name="abstarctddorscanpatternwrapper" aggregation="composite" association="_E-fKgLdeEe2x8r4xzVNSnA">
-      <type xmi:type="uml:Class" href="902x12p11_CDE.uml#_RAWS8LbnEe2iFNQcDRnLrw"/>
+      <type xmi:type="uml:Class" href="902x12_CDE.uml#_RAWS8LbnEe2iFNQcDRnLrw"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E-fxk7deEe2x8r4xzVNSnA"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E-fxlLdeEe2x8r4xzVNSnA" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kmlD8LbtEe2iFNQcDRnLrw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kmlD8bbtEe2iFNQcDRnLrw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_9pI1UMi7Ee2d1fZUw_41UA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9pI1Uci7Ee2d1fZUw_41UA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
     </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kmlrALbtEe2iFNQcDRnLrw" source="duplicatedProfile"/>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9pI1Usi7Ee2d1fZUw_41UA" source="duplicatedProfile"/>
     <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
   </profileApplication>
 </uml:Package>
