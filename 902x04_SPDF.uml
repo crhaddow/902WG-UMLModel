@@ -23,6 +23,10 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_c3AYcLdWEe2x8r4xzVNSnA" name="serviceReqRef">
       <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_03UE4rdYEe2x8r4xzVNSnA" name="servicepkg" type="_i6tXYLdCEe2x8r4xzVNSnA" aggregation="composite" association="_03Td0LdYEe2x8r4xzVNSnA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_03UE47dYEe2x8r4xzVNSnA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_03UE5LdYEe2x8r4xzVNSnA" value="*"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_fVDfULdCEe2x8r4xzVNSnA" name="ServicePkgEntity">
     <generalization xmi:type="uml:Generalization" xmi:id="_xFWPILdYEe2x8r4xzVNSnA">
@@ -62,15 +66,11 @@
       <type xmi:type="uml:Class" href="902x12_CDE.uml#_8hJ2cLbcEe2iFNQcDRnLrw"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_03Td0LdYEe2x8r4xzVNSnA" memberEnd="_03UE4rdYEe2x8r4xzVNSnA _03UE5bdYEe2x8r4xzVNSnA" navigableOwnedEnd="_03UE4rdYEe2x8r4xzVNSnA">
+  <packagedElement xmi:type="uml:Association" xmi:id="_03Td0LdYEe2x8r4xzVNSnA" memberEnd="_03UE4rdYEe2x8r4xzVNSnA _03UE5bdYEe2x8r4xzVNSnA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_03UE4LdYEe2x8r4xzVNSnA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_03UE4bdYEe2x8r4xzVNSnA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_03UE5bdYEe2x8r4xzVNSnA" name="servicepkgbody" type="_ecL9oLdCEe2x8r4xzVNSnA" association="_03Td0LdYEe2x8r4xzVNSnA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_03UE4rdYEe2x8r4xzVNSnA" name="servicepkg" type="_i6tXYLdCEe2x8r4xzVNSnA" aggregation="composite" association="_03Td0LdYEe2x8r4xzVNSnA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_03UE47dYEe2x8r4xzVNSnA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_03UE5LdYEe2x8r4xzVNSnA" value="1"/>
-    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_3RwuELdYEe2x8r4xzVNSnA" memberEnd="_3RxVIrdYEe2x8r4xzVNSnA _3RxVJbdYEe2x8r4xzVNSnA" navigableOwnedEnd="_3RxVIrdYEe2x8r4xzVNSnA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3RxVILdYEe2x8r4xzVNSnA" source="org.eclipse.papyrus">
