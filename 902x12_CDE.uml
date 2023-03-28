@@ -159,7 +159,7 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_M8Bh4LbnEe2iFNQcDRnLrw" name="AbstractReportWrapper" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_x-VuQLb4Ee2iFNQcDRnLrw" general="_L9nY4LbnEe2iFNQcDRnLrw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_OOgdcLbnEe2iFNQcDRnLrw" name="AbstarctSubmissionWrapper" isAbstract="true">
+  <packagedElement xmi:type="uml:Class" xmi:id="_OOgdcLbnEe2iFNQcDRnLrw" name="AbstractSubmissionWrapper" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_zVOosLb4Ee2iFNQcDRnLrw" general="_L9nY4LbnEe2iFNQcDRnLrw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_O3RtoLbnEe2iFNQcDRnLrw" name="AbstractEventSeqWrapper" isAbstract="true">
@@ -168,7 +168,7 @@
       <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_PaTiMLbnEe2iFNQcDRnLrw" name="AbstarctTrajWrapper" isAbstract="true">
+  <packagedElement xmi:type="uml:Class" xmi:id="_PaTiMLbnEe2iFNQcDRnLrw" name="AbstractTrajWrapper" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_2BeMgLb4Ee2iFNQcDRnLrw" general="_OOgdcLbnEe2iFNQcDRnLrw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_HX7wwLbzEe2iFNQcDRnLrw" name="trajectoryID">
       <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
@@ -180,7 +180,7 @@
       <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_RAWS8LbnEe2iFNQcDRnLrw" name="AbstarctDDORScanPatternWrapper" isAbstract="true">
+  <packagedElement xmi:type="uml:Class" xmi:id="_RAWS8LbnEe2iFNQcDRnLrw" name="AbstractDDORScanPatternWrapper" isAbstract="true">
     <generalization xmi:type="uml:Generalization" xmi:id="_35nZ4Lb4Ee2iFNQcDRnLrw" general="_OOgdcLbnEe2iFNQcDRnLrw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_GaTD0LbzEe2iFNQcDRnLrw" name="ddorScanPatternID">
       <type xmi:type="uml:DataType" href="902xNN_DTM.uml#_7X19gLOFEe2B0Mh7PpZkcw"/>
